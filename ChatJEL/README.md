@@ -1,12 +1,6 @@
-# React + Vite
+#  Proyecto FrontEnd Avanzado
+En este proyecto el objetivo es hacer un sitio que combine todo lo que hemos aprendido hasta el momento con React + Vite, integrando librerías, bases de datos y APIs. Espero que este producto sea de su agrado.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Parte 01
+En esta primera parte lo que se hizo fue crear el proyecto y ajustar la forma de trabajo que hemos de seguir. Tengo el repositorio y dentro la carpeta con el producto ChatJEL. He instalado las librerías React Hook Form y la herramienta Tailwindcss para tener estilos predefinidos en nuestro proyecto.
+Es necesario mencionar que estuve trabajando en la rama parte-1, necesito fusionar cuando termine el trabajo aquí.
