@@ -1,0 +1,136 @@
+/* Estructura principal */
+.chat-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Encabezado */
+.chat-header {
+    background-color: #3f51b5;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.chat-header p {
+    margin: 0.3rem 0 0;
+    font-weight: 300;
+}
+
+/* Contenido principal */
+.chat-main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+/* Caja de conversación */
+.chat-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+/* Mensajes */
+.chat-messages {
+    flex: 1;
+    padding: 1rem;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    background-color: #fafafa;
+}
+
+.message {
+    max-width: 75%;
+    padding: 0.8rem 1rem;
+    border-radius: 12px;
+    font-size: 1rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+}
+
+.user {
+    align-self: flex-end;
+    background-color: #dcf8c6;
+    color: #222;
+    border: 1px solid #b2dfdb;
+}
+
+.bot {
+    align-self: flex-start;
+    background-color: #e3e3e3;
+    color: #111;
+    border: 1px solid #cfcfcf;
+}
+
+/* Input */
+.input-bar {
+    display: flex;
+    padding: 0.8rem;
+    border-top: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.input-bar input {
+    flex: 1;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 0.5rem;
+    outline: none;
+}
+
+.input-bar input:focus {
+    border-color: #3f51b5;
+}
+
+.input-bar button {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.input-bar button:disabled {
+    background-color: #9fa8da;
+    cursor: not-allowed;
+}
+
+.input-bar button:hover:not(:disabled) {
+    background-color: #303f9f;
+}
+
+/* Mensaje de error */
+.error-message {
+    align-self: center;
+    color: red;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border: 1px solid red;
+    border-radius: 6px;
+    background-color: #ffeaea;
+}

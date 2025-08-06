@@ -1,10 +1,13 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './styles/ChatUI.css';
+import { OllamaProvider } from './context/OllamaContext';
+import ChatPage from './pages/ChatPage';
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <OllamaProvider>
+      <ChatPage />
+    </OllamaProvider>
+  </React.StrictMode>
+);
