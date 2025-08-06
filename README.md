@@ -13,3 +13,8 @@ Para la segunda parte, avanzaremos con la creación del clon básico de ChatGTP 
 Utilizamos useContext para centralizar y compartir el estado global del chat (mensajes, carga, errores y función sendMessage) entre los componentes. Así evitamos prop drilling y mantenemos el código más limpio y modular.
 
 ![Código de Clase01](./img/producto.png)
+
+## Parte 04
+El objetivo fue comprender cómo funciona un servidor Express, para lo cual creé una carpeta de proyecto, inicialicé NPM, instalé Express y configuré un servidor básico con un endpoint que responde 'Hola Mundo', verificando su correcto funcionamiento.
+
+![Código de Clase01](./img/introexpress.png)
