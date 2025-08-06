@@ -8,3 +8,6 @@ Lo que nos falta en esta parte es crear la pagina de Inicio de Sesión y Registr
 
 ## Parte 02
 Para la segunda parte, avanzaremos con la creación del clon básico de ChatGTP utilizando APIs como Ollama y el modelo de DevSeek, enfocandonos en la funcionalidad más que en la apariencia visual.
+
+## Parte 03
+Utilizamos useContext para centralizar y compartir el estado global del chat (mensajes, carga, errores y función sendMessage) entre los componentes. Así evitamos prop drilling y mantenemos el código más limpio y modular.
