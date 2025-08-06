@@ -61,10 +61,10 @@
 
 .message {
     max-width: 75%;
-    padding: 0.8rem 1rem;
+    padding: 0.2rem 1rem;
     border-radius: 12px;
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1.2;
     white-space: pre-wrap;
 }
 
